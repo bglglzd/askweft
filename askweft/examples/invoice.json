@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "id": "example-invoice",
+  "title": "Synthetic invoice · duplicate representation",
+  "invoice": {"id":"INV-100","amount_minor":18450,"currency":"USD","issued_on":"2030-06-01","reference":null,"party_key":"harbor"},
+  "bank_events": [
+    {"id":"BANK-A","amount_minor":18450,"currency":"USD","booked_on":"2030-06-03","reference":"PAY-41","party_key":"harbor"},
+    {"id":"BANK-B","amount_minor":18450,"currency":"USD","booked_on":"2030-06-04","reference":"PAY-42","party_key":"harbor"},
+    {"id":"BANK-C","amount_minor":18450,"currency":"USD","booked_on":"2030-06-04","reference":"PAY-42","party_key":"harbor"},
+    {"id":"BANK-D","amount_minor":9200,"currency":"USD","booked_on":"2030-06-03","reference":"PAY-41","party_key":"harbor"}
+  ],
+  "alternatives": [
+    {"id":"single-a","bank_ids":["BANK-A"]},
+    {"id":"single-b","bank_ids":["BANK-B"]},
+    {"id":"duplicate-b","bank_ids":["BANK-B","BANK-C"]},
+    {"id":"wrong-amount","bank_ids":["BANK-D"]}
+  ],
+  "confirmed": {}
+}
