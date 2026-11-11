@@ -30,7 +30,9 @@ def main():
                     engine = Engine(Path(temporary.name) / "run.sqlite")
                     session = None
                     keys(data["config"], ("lambda", "question_budget", "field_budget"))
-                    session = engine.import_case(data["source_json"], config(data["config"]))["session"]
+                    session = engine.import_case(data["source_json"], config(data["config"]))[
+                        "session"
+                    ]
                 else:
                     if data.get("op") == "state" and engine is not None and session is None:
                         keys(data, ("op",))
@@ -42,14 +44,19 @@ def main():
                         raise Error("not_found", "Start a case first")
                     if data.get("op") == "request":
                         keys(data, ("op", "question_id"))
-                        session = engine.request(session["id"], session["revision"],
-                                                 data["question_id"])["session"]
+                        session = engine.request(
+                            session["id"], session["revision"], data["question_id"]
+                        )["session"]
                     elif data.get("op") == "answer":
                         keys(data, ("op", "values"))
                         if session["pending"] is None:
                             raise Error("request_refused", "No pending request")
-                        session = engine.answer(session["id"], session["revision"],
-                                                session["pending"]["id"], data["values"])["session"]
+                        session = engine.answer(
+                            session["id"],
+                            session["revision"],
+                            session["pending"]["id"],
+                            data["values"],
+                        )["session"]
                     elif data.get("op") == "state":
                         keys(data, ("op",))
                         session = engine.state(session["id"])["session"]

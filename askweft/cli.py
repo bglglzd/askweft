@@ -18,8 +18,11 @@ def read(path):
 
 
 def settings(args):
-    return {"lambda": args.cost_lambda, "question_budget": args.question_budget,
-            "field_budget": args.field_budget}
+    return {
+        "lambda": args.cost_lambda,
+        "question_budget": args.question_budget,
+        "field_budget": args.field_budget,
+    }
 
 
 def add_settings(parser):
@@ -29,9 +32,13 @@ def add_settings(parser):
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(prog="askweft", description="Plan and record document field requests.")
+    parser = argparse.ArgumentParser(
+        prog="askweft", description="Plan and record document field requests."
+    )
     parser.add_argument("--version", action="version", version=__version__)
-    parser.add_argument("--db", default="askweft.sqlite", help="Local SQLite file (default: askweft.sqlite)")
+    parser.add_argument(
+        "--db", default="askweft.sqlite", help="Local SQLite file (default: askweft.sqlite)"
+    )
     commands = parser.add_subparsers(dest="command", required=True)
     start = commands.add_parser("import", help="Import arbitrary Case v1 JSON bytes")
     start.add_argument("file")
@@ -40,7 +47,9 @@ def main(argv=None):
         sub = commands.add_parser(command)
         sub.add_argument("--session")
         if command == "export":
-            sub.add_argument("--original", action="store_true", help="Write exact original case bytes")
+            sub.add_argument(
+                "--original", action="store_true", help="Write exact original case bytes"
+            )
     request = commands.add_parser("request", help="Explicitly charge and create a pending request")
     request.add_argument("--session", required=True)
     request.add_argument("--revision", required=True, type=int)
@@ -49,8 +58,12 @@ def main(argv=None):
     answer.add_argument("--session", required=True)
     answer.add_argument("--revision", required=True, type=int)
     answer.add_argument("--request", required=True)
-    answer.add_argument("--answer-file", required=True, help="Typed field mapping JSON, or - for stdin")
-    restart = commands.add_parser("restart", help="New session from retained input; old journal is preserved")
+    answer.add_argument(
+        "--answer-file", required=True, help="Typed field mapping JSON, or - for stdin"
+    )
+    restart = commands.add_parser(
+        "restart", help="New session from retained input; old journal is preserved"
+    )
     restart.add_argument("--session", required=True)
     add_settings(restart)
     for command in ("serve", "demo"):
@@ -67,12 +80,17 @@ def main(argv=None):
         elif command == "request":
             result = engine.request(args.session, args.revision, args.question)
         elif command == "answer":
-            result = engine.answer(args.session, args.revision, args.request, loads(read(args.answer_file)))
+            result = engine.answer(
+                args.session, args.revision, args.request, loads(read(args.answer_file))
+            )
         elif command in ("serve", "demo"):
             if command == "demo" and engine.state()["session"] is None:
-                engine.import_case(files("askweft").joinpath("examples", "invoice.json").read_bytes(),
-                                   synthetic=True)
+                engine.import_case(
+                    files("askweft").joinpath("examples", "invoice.json").read_bytes(),
+                    synthetic=True,
+                )
             from .server import serve
+
             serve(engine, port=args.port)
             return 0
         else:
@@ -87,7 +105,9 @@ def main(argv=None):
         sys.stdout.buffer.write(encoded(result) + b"\n")
         return 0
     except Error as error:
-        sys.stderr.buffer.write(encoded({"error": {"code": error.code, "message": str(error)}}) + b"\n")
+        sys.stderr.buffer.write(
+            encoded({"error": {"code": error.code, "message": str(error)}}) + b"\n"
+        )
         return 2
     except OSError:
         sys.stderr.write("Cannot read or write the requested local file.\n")
