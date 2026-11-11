@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "id": "S01",
+  "title": "Synthetic invoice S01",
+  "invoice": {
+    "id": "I-S01",
+    "amount_minor": 12500,
+    "currency": "JPY",
+    "issued_on": "2032-03-01",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-S01-1-1",
+      "amount_minor": 12500,
+      "currency": "JPY",
+      "booked_on": "2032-03-10",
+      "reference": "yen-a",
+      "party_key": "harbor"
+    },
+    {
+      "id": "B-S01-2-1",
+      "amount_minor": 12500,
+      "currency": "JPY",
+      "booked_on": "2032-03-10",
+      "reference": "yen-b",
+      "party_key": "harbor"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-S01-1-1"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-S01-2-1"
+      ]
+    }
+  ],
+  "confirmed": {}
+}

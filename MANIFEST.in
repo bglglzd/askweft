@@ -4,5 +4,6 @@ recursive-include askweft/examples *.json
 recursive-include docs *.md *.png
 recursive-include tests *.py
 recursive-include scripts *.py
-recursive-include benchmarks *.json *.md *.txt LICENSE
+recursive-include tools *.py
+recursive-include benchmarks *.json *.ndjson *.md *.txt LICENSE
 recursive-include .github *.yml

@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "id": "D07",
+  "title": "Synthetic invoice D07",
+  "invoice": {
+    "id": "I-D07",
+    "amount_minor": 12500,
+    "currency": "USD",
+    "issued_on": "2032-03-01",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-D07-1-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "U-0",
+      "party_key": "warehouse"
+    },
+    {
+      "id": "B-D07-2-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "U-1",
+      "party_key": null
+    },
+    {
+      "id": "B-D07-3-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "U-2",
+      "party_key": "warehouse"
+    },
+    {
+      "id": "B-D07-4-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "U-3",
+      "party_key": null
+    },
+    {
+      "id": "B-D07-5-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "U-4",
+      "party_key": "warehouse"
+    },
+    {
+      "id": "B-D07-6-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "U-5",
+      "party_key": null
+    },
+    {
+      "id": "B-D07-7-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "U-6",
+      "party_key": "warehouse"
+    },
+    {
+      "id": "B-D07-8-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "U-7",
+      "party_key": null
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-D07-1-1"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-D07-2-1"
+      ]
+    },
+    {
+      "id": "A3",
+      "bank_ids": [
+        "B-D07-3-1"
+      ]
+    },
+    {
+      "id": "A4",
+      "bank_ids": [
+        "B-D07-4-1"
+      ]
+    },
+    {
+      "id": "A5",
+      "bank_ids": [
+        "B-D07-5-1"
+      ]
+    },
+    {
+      "id": "A6",
+      "bank_ids": [
+        "B-D07-6-1"
+      ]
+    },
+    {
+      "id": "A7",
+      "bank_ids": [
+        "B-D07-7-1"
+      ]
+    },
+    {
+      "id": "A8",
+      "bank_ids": [
+        "B-D07-8-1"
+      ]
+    }
+  ],
+  "confirmed": {}
+}

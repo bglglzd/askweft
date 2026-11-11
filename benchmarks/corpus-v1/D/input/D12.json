@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "id": "D12",
+  "title": "Synthetic invoice D12",
+  "invoice": {
+    "id": "I-D12",
+    "amount_minor": 12500,
+    "currency": "USD",
+    "issued_on": "2032-03-01",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-D12-1-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "P0",
+      "party_key": "fleet0"
+    },
+    {
+      "id": "B-D12-2-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "P1",
+      "party_key": "fleet1"
+    },
+    {
+      "id": "B-D12-3-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "P2",
+      "party_key": "fleet2"
+    },
+    {
+      "id": "B-D12-4-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "P3",
+      "party_key": "fleet0"
+    },
+    {
+      "id": "B-D12-4-2",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "P3",
+      "party_key": "fleet0"
+    },
+    {
+      "id": "B-D12-5-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "P4",
+      "party_key": "fleet1"
+    },
+    {
+      "id": "B-D12-5-2",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "P4",
+      "party_key": "fleet1"
+    },
+    {
+      "id": "B-D12-6-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "P5",
+      "party_key": "fleet2"
+    },
+    {
+      "id": "B-D12-6-2",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "P5",
+      "party_key": "fleet2"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-D12-1-1"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-D12-2-1"
+      ]
+    },
+    {
+      "id": "A3",
+      "bank_ids": [
+        "B-D12-3-1"
+      ]
+    },
+    {
+      "id": "A4",
+      "bank_ids": [
+        "B-D12-4-1",
+        "B-D12-4-2"
+      ]
+    },
+    {
+      "id": "A5",
+      "bank_ids": [
+        "B-D12-5-1",
+        "B-D12-5-2"
+      ]
+    },
+    {
+      "id": "A6",
+      "bank_ids": [
+        "B-D12-6-1",
+        "B-D12-6-2"
+      ]
+    }
+  ],
+  "confirmed": {
+    "duplicate": true
+  }
+}

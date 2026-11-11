@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "id": "D11",
+  "title": "Synthetic invoice D11",
+  "invoice": {
+    "id": "I-D11",
+    "amount_minor": 12500,
+    "currency": "USD",
+    "issued_on": "2032-03-01",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-D11-1-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-07",
+      "reference": "R-A",
+      "party_key": "harbor"
+    },
+    {
+      "id": "B-D11-2-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-08",
+      "reference": "R-A",
+      "party_key": "harbor"
+    },
+    {
+      "id": "B-D11-3-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-07",
+      "reference": "R-B",
+      "party_key": "harbor"
+    },
+    {
+      "id": "B-D11-4-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-08",
+      "reference": "R-B",
+      "party_key": "harbor"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-D11-1-1"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-D11-2-1"
+      ]
+    },
+    {
+      "id": "A3",
+      "bank_ids": [
+        "B-D11-3-1"
+      ]
+    },
+    {
+      "id": "A4",
+      "bank_ids": [
+        "B-D11-4-1"
+      ]
+    }
+  ],
+  "confirmed": {
+    "reference": "R-B"
+  }
+}

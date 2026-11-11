@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "D30",
+  "title": "Synthetic invoice D30",
+  "invoice": {
+    "id": "I-D30",
+    "amount_minor": 1000000000000,
+    "currency": "GBP",
+    "issued_on": "2032-02-28",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-D30-1-1",
+      "amount_minor": 1000000000000,
+      "currency": "GBP",
+      "booked_on": "2032-02-29",
+      "reference": null,
+      "party_key": "ledger"
+    },
+    {
+      "id": "B-D30-1-2",
+      "amount_minor": 1000000000000,
+      "currency": "GBP",
+      "booked_on": "2032-02-29",
+      "reference": null,
+      "party_key": "ledger"
+    },
+    {
+      "id": "B-D30-2-1",
+      "amount_minor": 1000000000000,
+      "currency": "GBP",
+      "booked_on": "2032-03-01",
+      "reference": "r1",
+      "party_key": "ledger"
+    },
+    {
+      "id": "B-D30-2-2",
+      "amount_minor": 1000000000000,
+      "currency": "GBP",
+      "booked_on": "2032-03-01",
+      "reference": "r1",
+      "party_key": "ledger"
+    },
+    {
+      "id": "B-D30-3-1",
+      "amount_minor": 1000000000000,
+      "currency": "GBP",
+      "booked_on": "2032-03-02",
+      "reference": "r2",
+      "party_key": null
+    },
+    {
+      "id": "B-D30-3-2",
+      "amount_minor": 1000000000000,
+      "currency": "GBP",
+      "booked_on": "2032-03-02",
+      "reference": "r2",
+      "party_key": null
+    },
+    {
+      "id": "B-D30-3-3",
+      "amount_minor": 1000000000000,
+      "currency": "GBP",
+      "booked_on": "2032-03-02",
+      "reference": "r2",
+      "party_key": null
+    },
+    {
+      "id": "B-D30-4-1",
+      "amount_minor": 1000000000000,
+      "currency": "GBP",
+      "booked_on": "2032-03-03",
+      "reference": "r3",
+      "party_key": "ledger"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-D30-1-1",
+        "B-D30-1-2"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-D30-2-1",
+        "B-D30-2-2"
+      ]
+    },
+    {
+      "id": "A3",
+      "bank_ids": [
+        "B-D30-3-1",
+        "B-D30-3-2",
+        "B-D30-3-3"
+      ]
+    },
+    {
+      "id": "A4",
+      "bank_ids": [
+        "B-D30-4-1"
+      ]
+    }
+  ],
+  "confirmed": {}
+}

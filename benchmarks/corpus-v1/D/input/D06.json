@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "id": "D06",
+  "title": "Synthetic invoice D06",
+  "invoice": {
+    "id": "I-D06",
+    "amount_minor": 12500,
+    "currency": "USD",
+    "issued_on": "2032-03-01",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-D06-1-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-08",
+      "reference": "L",
+      "party_key": "p0"
+    },
+    {
+      "id": "B-D06-2-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-09",
+      "reference": "L",
+      "party_key": "p1"
+    },
+    {
+      "id": "B-D06-3-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "L",
+      "party_key": "p0"
+    },
+    {
+      "id": "B-D06-4-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-08",
+      "reference": "R",
+      "party_key": "p1"
+    },
+    {
+      "id": "B-D06-5-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-09",
+      "reference": "R",
+      "party_key": "p0"
+    },
+    {
+      "id": "B-D06-6-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "R",
+      "party_key": "p1"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-D06-1-1"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-D06-2-1"
+      ]
+    },
+    {
+      "id": "A3",
+      "bank_ids": [
+        "B-D06-3-1"
+      ]
+    },
+    {
+      "id": "A4",
+      "bank_ids": [
+        "B-D06-4-1"
+      ]
+    },
+    {
+      "id": "A5",
+      "bank_ids": [
+        "B-D06-5-1"
+      ]
+    },
+    {
+      "id": "A6",
+      "bank_ids": [
+        "B-D06-6-1"
+      ]
+    }
+  ],
+  "confirmed": {}
+}

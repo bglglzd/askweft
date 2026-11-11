@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "id": "H05",
+  "title": "Synthetic invoice H05",
+  "invoice": {
+    "id": "I-H05",
+    "amount_minor": 777,
+    "currency": "GBP",
+    "issued_on": "2032-03-01",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-H05-1-1",
+      "amount_minor": 777,
+      "currency": "GBP",
+      "booked_on": "2034-07-18",
+      "reference": "joint",
+      "party_key": "u"
+    },
+    {
+      "id": "B-H05-2-1",
+      "amount_minor": 777,
+      "currency": "GBP",
+      "booked_on": "2034-07-18",
+      "reference": "joint",
+      "party_key": "v"
+    },
+    {
+      "id": "B-H05-3-1",
+      "amount_minor": 777,
+      "currency": "GBP",
+      "booked_on": "2034-07-19",
+      "reference": "joint",
+      "party_key": "u"
+    },
+    {
+      "id": "B-H05-3-2",
+      "amount_minor": 777,
+      "currency": "GBP",
+      "booked_on": "2034-07-19",
+      "reference": "joint",
+      "party_key": "u"
+    },
+    {
+      "id": "B-H05-4-1",
+      "amount_minor": 777,
+      "currency": "GBP",
+      "booked_on": "2034-07-19",
+      "reference": "joint",
+      "party_key": "v"
+    },
+    {
+      "id": "B-H05-4-2",
+      "amount_minor": 777,
+      "currency": "GBP",
+      "booked_on": "2034-07-19",
+      "reference": "joint",
+      "party_key": "v"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-H05-1-1"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-H05-2-1"
+      ]
+    },
+    {
+      "id": "A3",
+      "bank_ids": [
+        "B-H05-3-1",
+        "B-H05-3-2"
+      ]
+    },
+    {
+      "id": "A4",
+      "bank_ids": [
+        "B-H05-4-1",
+        "B-H05-4-2"
+      ]
+    }
+  ],
+  "confirmed": {}
+}

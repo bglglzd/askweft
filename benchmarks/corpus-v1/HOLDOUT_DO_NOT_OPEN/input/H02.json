@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "id": "H02",
+  "title": "Synthetic invoice H02",
+  "invoice": {
+    "id": "I-H02",
+    "amount_minor": 4679,
+    "currency": "USD",
+    "issued_on": "2032-03-01",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-H02-1-1",
+      "amount_minor": 4679,
+      "currency": "USD",
+      "booked_on": "2034-07-10",
+      "reference": "r0",
+      "party_key": "west"
+    },
+    {
+      "id": "B-H02-2-1",
+      "amount_minor": 4679,
+      "currency": "USD",
+      "booked_on": "2034-07-11",
+      "reference": "r0",
+      "party_key": "east"
+    },
+    {
+      "id": "B-H02-3-1",
+      "amount_minor": 4679,
+      "currency": "USD",
+      "booked_on": "2034-07-12",
+      "reference": "r0",
+      "party_key": "east"
+    },
+    {
+      "id": "B-H02-4-1",
+      "amount_minor": 4679,
+      "currency": "USD",
+      "booked_on": "2034-07-10",
+      "reference": "r1",
+      "party_key": "north"
+    },
+    {
+      "id": "B-H02-5-1",
+      "amount_minor": 4679,
+      "currency": "USD",
+      "booked_on": "2034-07-11",
+      "reference": "r1",
+      "party_key": "west"
+    },
+    {
+      "id": "B-H02-6-1",
+      "amount_minor": 4679,
+      "currency": "USD",
+      "booked_on": "2034-07-12",
+      "reference": "r1",
+      "party_key": "north"
+    },
+    {
+      "id": "B-H02-7-1",
+      "amount_minor": 4679,
+      "currency": "USD",
+      "booked_on": "2034-07-13",
+      "reference": "r2",
+      "party_key": "west"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-H02-1-1"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-H02-2-1"
+      ]
+    },
+    {
+      "id": "A3",
+      "bank_ids": [
+        "B-H02-3-1"
+      ]
+    },
+    {
+      "id": "A4",
+      "bank_ids": [
+        "B-H02-4-1"
+      ]
+    },
+    {
+      "id": "A5",
+      "bank_ids": [
+        "B-H02-5-1"
+      ]
+    },
+    {
+      "id": "A6",
+      "bank_ids": [
+        "B-H02-6-1"
+      ]
+    },
+    {
+      "id": "A7",
+      "bank_ids": [
+        "B-H02-7-1"
+      ]
+    }
+  ],
+  "confirmed": {
+    "party": "west"
+  }
+}

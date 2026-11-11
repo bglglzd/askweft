@@ -233,7 +233,7 @@
     $("result-scope").hidden = current.status !== "resolved_within_model";
     text("usage-questions", `Questions ${current.usage?.questions ?? 0} of ${current.config.question_budget}`);
     text("usage-fields", `Unique fields ${current.usage?.fields ?? 0} of ${current.config.field_budget}`);
-    text("usage-cost", `Cost ${current.usage?.cost ?? 0} units`);
+    text("usage-cost", `Cost ${current.usage?.cost ?? 0} units`); $("jump-request").hidden = !["active", "awaiting_answer"].includes(current.status);
     renderSource(current);
     renderAlternatives(current);
     renderRequest(current);

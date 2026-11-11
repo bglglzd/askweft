@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "case_id": "D04",
+  "gold_alternative_id": "A2",
+  "answers": {
+    "reference": "same",
+    "date": "2032-03-10",
+    "party": "harbor",
+    "duplicate": true
+  },
+  "expectations": {
+    "scope": {
+      "policies": [
+        "adaptive",
+        "fixed",
+        "random"
+      ],
+      "lambdas": [
+        0,
+        1,
+        4
+      ],
+      "random_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "settings": "per-case settings; sensitivity overrides lambda only"
+    },
+    "allowed_terminal_states": [
+      {
+        "status": "resolved_within_model"
+      }
+    ],
+    "gold_survives_all_non_null_answers": true,
+    "wrong_resolution_count": 0,
+    "note": "This is a contract invariant or allowed state set, not a prediction of one policy trajectory."
+  },
+  "provenance": "Authored synthetic evidence; no implementation or product-output access.",
+  "domain_class": "single versus duplicate group"
+}

@@ -46,6 +46,14 @@ jobs:
       - name: Exercise installed bytes from outside the checkout
         working-directory: ${{ runner.temp }}
         run: python -I "${{ github.workspace }}/scripts/check-installed.py"
+      - name: Replay the published synthetic comparison
+        if: matrix.os == 'ubuntu-latest' && matrix.python == '3.11'
+        run: |
+          mkdir "$RUNNER_TEMP/askweft-eval"
+          python tools/evaluate.py --split D --output "$RUNNER_TEMP/askweft-eval/D"
+          python tools/evaluate.py --split S --output "$RUNNER_TEMP/askweft-eval/S"
+          python tools/evaluate.py --prepare-freeze "$RUNNER_TEMP/askweft-eval/freeze.json" --artifact "$RUNNER_TEMP/askweft-packages/askweft-0.1.0-py3-none-any.whl"
+          python tools/evaluate.py --split H --output "$RUNNER_TEMP/askweft-eval/H" --freeze-record "$RUNNER_TEMP/askweft-eval/freeze.json"
       - name: Verify tracked source is unchanged
         shell: bash
         run: |

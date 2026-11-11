@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "id": "H10",
+  "title": "Synthetic invoice H10",
+  "invoice": {
+    "id": "I-H10",
+    "amount_minor": 60902,
+    "currency": "USD",
+    "issued_on": "2032-03-01",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-H10-1-1",
+      "amount_minor": 60902,
+      "currency": "USD",
+      "booked_on": "2034-07-25",
+      "reference": "a",
+      "party_key": "p"
+    },
+    {
+      "id": "B-H10-1-2",
+      "amount_minor": 60902,
+      "currency": "USD",
+      "booked_on": "2034-07-25",
+      "reference": "a",
+      "party_key": "p"
+    },
+    {
+      "id": "B-H10-2-1",
+      "amount_minor": 60902,
+      "currency": "USD",
+      "booked_on": "2034-07-26",
+      "reference": "b",
+      "party_key": "q"
+    },
+    {
+      "id": "B-H10-3-1",
+      "amount_minor": 60902,
+      "currency": "USD",
+      "booked_on": "2034-07-27",
+      "reference": "c",
+      "party_key": "p"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-H10-1-1",
+        "B-H10-1-2"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-H10-2-1"
+      ]
+    },
+    {
+      "id": "A3",
+      "bank_ids": [
+        "B-H10-3-1"
+      ]
+    },
+    {
+      "id": "A4",
+      "bank_ids": [
+        "B-H10-1-2"
+      ]
+    },
+    {
+      "id": "A5",
+      "bank_ids": [
+        "B-H10-1-1"
+      ]
+    }
+  ],
+  "confirmed": {}
+}

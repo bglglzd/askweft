@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "case_id": "S08",
+  "lambda": 1,
+  "question_budget": 4,
+  "field_budget": 4,
+  "scope": "All policies and preregistered lambda sensitivities use these same budgets.",
+  "runs": [
+    {
+      "id": "unknown-evidence",
+      "lambda": 1,
+      "question_budget": 4,
+      "field_budget": 4,
+      "expected_terminal": {
+        "status": "unresolved",
+        "reason": "indistinguishable"
+      }
+    },
+    {
+      "id": "zero-question-budget",
+      "lambda": 1,
+      "question_budget": 0,
+      "field_budget": 4,
+      "expected_terminal": {
+        "status": "unresolved",
+        "reason": "budget_exhausted"
+      }
+    },
+    {
+      "id": "zero-field-budget",
+      "lambda": 1,
+      "question_budget": 4,
+      "field_budget": 0,
+      "expected_terminal": {
+        "status": "unresolved",
+        "reason": "budget_exhausted"
+      }
+    }
+  ]
+}

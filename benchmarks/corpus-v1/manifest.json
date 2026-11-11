@@ -1,0 +1,1283 @@
+{
+  "schema_version": 1,
+  "corpus_version": "askweft-corpus-v1",
+  "sealed_at": "2026-11-11T01:57:21.031630Z",
+  "contract_sha256": "9c87088f714dad60c549b49172f87aa46882185f6e921d4c2f99f5ddb831eae5",
+  "files": [
+    {
+      "path": "D/input/D01.json",
+      "sha256": "3cf2a57cf5157b2a9d474e5f2ba611a49934cdbef7b34b315cca7ec5899249ad",
+      "bytes": 818,
+      "split": "D",
+      "case_id": "D01",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D01.json",
+      "sha256": "2d58535546cd8e0ee18ae342a574e59f8e4ef202e0f83400e2a56092860e80aa",
+      "bytes": 1139,
+      "split": "D",
+      "case_id": "D01",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D01.json",
+      "sha256": "0dad81191be47bdc9341b59eec994d3f6806dee0dab7b6af675c80321cf6f516",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D01",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D02.json",
+      "sha256": "075de4798702f96205ecca68c73528772ce0b0d82afc1782c5cc9ea38788618c",
+      "bytes": 1077,
+      "split": "D",
+      "case_id": "D02",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D02.json",
+      "sha256": "4b78adb224d92ec52b047c316ed3c8d78ed991bef4fff388ca869b84756e4de3",
+      "bytes": 1147,
+      "split": "D",
+      "case_id": "D02",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D02.json",
+      "sha256": "e78f3ebf7cdf099e3282356ca3c5358dc78b303300c099e128e15d5cdd345fba",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D02",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D03.json",
+      "sha256": "fa4eeb6cac9c3eb74282592bb952c3cf40cfe5192746e74ff4b74bac15f35547",
+      "bytes": 1330,
+      "split": "D",
+      "case_id": "D03",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D03.json",
+      "sha256": "0917dc35a76b8913504dada8ed2435aba3e45887f8c4e5b367ff5fa570272b7d",
+      "bytes": 1148,
+      "split": "D",
+      "case_id": "D03",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D03.json",
+      "sha256": "8511087515971547f9ad67c8b994f0fb3f3ffd732b52197ae8839a8d253082fc",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D03",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D04.json",
+      "sha256": "4add15393e07663cd035382b3ad2c0f78f1fdee241fc3a65460e1165c40294e3",
+      "bytes": 1220,
+      "split": "D",
+      "case_id": "D04",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D04.json",
+      "sha256": "85c41f97964abdb66609f6ac24d975538416d5453f3f778305d5836f9c1a4b98",
+      "bytes": 1148,
+      "split": "D",
+      "case_id": "D04",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D04.json",
+      "sha256": "559651e226166fa72986595e6f960886867273ed24b4f8b9aaae5361dea3bbed",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D04",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D05.json",
+      "sha256": "e9122dabd91012c10c73d462c34c651e7a52ab6066ee6a033a6355959f99dea3",
+      "bytes": 1332,
+      "split": "D",
+      "case_id": "D05",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D05.json",
+      "sha256": "a0c1566cf322ae7bf889f4fd43ede97a326bc032c2e4e7abeacc79abdc23d3f2",
+      "bytes": 1152,
+      "split": "D",
+      "case_id": "D05",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D05.json",
+      "sha256": "e00912e177e4dcd15684c3415d1f138cc8f0b6b0937f42aed6e24f5d0c22e904",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D05",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D06.json",
+      "sha256": "ed1cd804601865639dabc03480603e5308c4e7c524a827019ccb99edd3c14246",
+      "bytes": 1812,
+      "split": "D",
+      "case_id": "D06",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D06.json",
+      "sha256": "c8f46e74db9de5a9a1db6b0e30f1d5e95d0be84758917a6162d163f76c20db9c",
+      "bytes": 1157,
+      "split": "D",
+      "case_id": "D06",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D06.json",
+      "sha256": "bab59d3c4aee74c14ea03c1b2d4da41dd0c50bd47d4942a3c7c4c59e1a1c5bb2",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D06",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D07.json",
+      "sha256": "67d72a6f5be706ea7fc5f3dc063df14b558f48813c20a7f92fa7a3a9140c198d",
+      "bytes": 2360,
+      "split": "D",
+      "case_id": "D07",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D07.json",
+      "sha256": "bbab3a2fb7315f13019efac8ceda59d1066bf46baf628be66f01fd6154b5c63e",
+      "bytes": 1163,
+      "split": "D",
+      "case_id": "D07",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D07.json",
+      "sha256": "a951a277596f16325f464e99260a339b998ef2e0da6967b6de6b2972fc8261d3",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D07",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D08.json",
+      "sha256": "87b9f73bbac6648b20ee41e75edf93fceb5af30facd5a7bee3028fd4ba73da85",
+      "bytes": 1080,
+      "split": "D",
+      "case_id": "D08",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D08.json",
+      "sha256": "2b1d6dee2c36d0ff2ac09a65c518ac8975e3bc6090abaeb0503632aa4a29ad78",
+      "bytes": 1167,
+      "split": "D",
+      "case_id": "D08",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D08.json",
+      "sha256": "ddabb6043939a79b1e9f4c66913a076afa05d6085326c16a210c124d2b95173f",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D08",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D09.json",
+      "sha256": "62c47f999fc38c27ecf0eb8c782f4bbeab4b42ed74a032e208fea8f7c351cd8f",
+      "bytes": 1720,
+      "split": "D",
+      "case_id": "D09",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D09.json",
+      "sha256": "520178e0df8a87a037cb2207f82c55907c5ba3d2543e1c08a84808d85616fb39",
+      "bytes": 1178,
+      "split": "D",
+      "case_id": "D09",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D09.json",
+      "sha256": "63b2e3ff64fd28f109b68f574f6ae46d78b15c88ac2150ae3b307ea912e6a6bf",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D09",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D10.json",
+      "sha256": "a1ac68273793d00527a1aee7c980e80f1da3ea923e9ec70f5ae790064ee236ce",
+      "bytes": 1043,
+      "split": "D",
+      "case_id": "D10",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D10.json",
+      "sha256": "adccba9f84e75d0ac3ac1b420d40ed6f1a91572dbbe6608f7029592e654a74f2",
+      "bytes": 1140,
+      "split": "D",
+      "case_id": "D10",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D10.json",
+      "sha256": "e303f70d2765cc7e5f394de45c745746dfa59a8bb74b5371767407b6ac3ed221",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D10",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D11.json",
+      "sha256": "67fd2069819bb461ed5a58fe46af55751ea17d4c12ab4546670e10804d0d986e",
+      "bytes": 1358,
+      "split": "D",
+      "case_id": "D11",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D11.json",
+      "sha256": "4f3f56d580d2831e8e8091a15be749b555d4b346146ef3f81f6fda606741ecee",
+      "bytes": 1162,
+      "split": "D",
+      "case_id": "D11",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D11.json",
+      "sha256": "e36cc40cb312ae800a6af86eddbcbad3f2eb154a64a1b43172107e9008ce82fd",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D11",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D12.json",
+      "sha256": "45230a79afe9e069b8d268f678fd896c6ee83ec3cac412bc46e8c63d1a417411",
+      "bytes": 2464,
+      "split": "D",
+      "case_id": "D12",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D12.json",
+      "sha256": "f0f16d539cbe27be5f11a935ac6416abc678134959da84e6950a488f652a11d0",
+      "bytes": 1165,
+      "split": "D",
+      "case_id": "D12",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D12.json",
+      "sha256": "85c9d8d5858d39ed2a5765a9731c214ed028268ae0da114bc691dc82085830eb",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D12",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D13.json",
+      "sha256": "7c787db407dc639ffd2e82d9faaaaa63dff87c00d599c98bc2b830835c5b32c8",
+      "bytes": 1329,
+      "split": "D",
+      "case_id": "D13",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D13.json",
+      "sha256": "30abccb2ce17d5d87d49bef317b63bbba369bde984d3d80b7875291c03682c8e",
+      "bytes": 1167,
+      "split": "D",
+      "case_id": "D13",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D13.json",
+      "sha256": "3388fccda18ea1dc3af8689f457a71a2bec7782a62dc4e9295732a5f527565f7",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D13",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D14.json",
+      "sha256": "1c58ce1be7ba0ef8a4f75e3b77245ea82f9ec928d9290f0049a18f577237890e",
+      "bytes": 1071,
+      "split": "D",
+      "case_id": "D14",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D14.json",
+      "sha256": "106fb74d89194a2c5d67b078ec14278f5254ac9677cfb279d97b842585830044",
+      "bytes": 1167,
+      "split": "D",
+      "case_id": "D14",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D14.json",
+      "sha256": "8c8201d3ab2c9102e975ebfec454fce158078b035dc56263c56300cb4506135a",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D14",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D15.json",
+      "sha256": "2a5079086cf9fd4935b1c55000bf9d26c7745f2192bdbf2bedcbe8718416469f",
+      "bytes": 1320,
+      "split": "D",
+      "case_id": "D15",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D15.json",
+      "sha256": "c2a07147722b878d418c630959273974c6979a22fbbcacac7d2797f92e7b84c0",
+      "bytes": 1154,
+      "split": "D",
+      "case_id": "D15",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D15.json",
+      "sha256": "9498a1f823f69b3b2cc10d354abaa2ba5d0b4e5bf81e96f9d7ffdea2e6db9588",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D15",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D16.json",
+      "sha256": "701db9fdd3ff468bcace25205fb57168e6c4d28e208684be3e9a1e349430b0e5",
+      "bytes": 1717,
+      "split": "D",
+      "case_id": "D16",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D16.json",
+      "sha256": "5b4477afd85d3b54dce302d64476c58b7d75a70d6e801a2cc2a0cba6f16872ac",
+      "bytes": 1155,
+      "split": "D",
+      "case_id": "D16",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D16.json",
+      "sha256": "005beaee86b44e24de8038126300afd1cb51465cddbcbd7530e5a82907a04492",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D16",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D17.json",
+      "sha256": "e9ca8961ca39aeccffc6ed86c02cdae6ac3c8a5222c33df0aebc0eba2c40ca24",
+      "bytes": 1059,
+      "split": "D",
+      "case_id": "D17",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D17.json",
+      "sha256": "2e77de5a4c5eebcdc5dc53432dda8956cdecd7d9bd854d96d263abd954f4652b",
+      "bytes": 1189,
+      "split": "D",
+      "case_id": "D17",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D17.json",
+      "sha256": "4e9536688423b404756c4e7dbedd41436af01bf301d446f4d564c32113e0eb96",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D17",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D18.json",
+      "sha256": "0e43cb074551b9e057dbfa5d9138ba5d8766c0c1f6c7b9c7bef5fa12ed2d58e9",
+      "bytes": 818,
+      "split": "D",
+      "case_id": "D18",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D18.json",
+      "sha256": "ae71c0634b9d604e4b38f03ee931c1ec7ec0c8cb0450e2e6507b3dfc5cf3e49e",
+      "bytes": 1201,
+      "split": "D",
+      "case_id": "D18",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D18.json",
+      "sha256": "91039024561433d351d252b9aeb4961e31c8e9f3be79bfe7fd1a2de3e9ee7448",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D18",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D19.json",
+      "sha256": "de4d6865289bdd4ef7f7d031dc072062667234742797a2ea3df2c3c569b9a028",
+      "bytes": 1615,
+      "split": "D",
+      "case_id": "D19",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D19.json",
+      "sha256": "f04214121be2364538ca98f62785a84ffba2698a64b6ad2a36d46836a3b89176",
+      "bytes": 1161,
+      "split": "D",
+      "case_id": "D19",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D19.json",
+      "sha256": "4302c795c2060af36b0474d18761026103d2f8798bd4a40a70baf8973837bd78",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D19",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D20.json",
+      "sha256": "4313aa741f144bb3cb0d2ca75a7d8fc79955e58bf28204b9637ba75da9afe7dd",
+      "bytes": 1324,
+      "split": "D",
+      "case_id": "D20",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D20.json",
+      "sha256": "12bec7c762922d73074a646989068668c72181626cd6bb3d8eb2863125afa5ee",
+      "bytes": 1260,
+      "split": "D",
+      "case_id": "D20",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D20.json",
+      "sha256": "27b0818ca31453d2f7ff3602406e3dac82ca16f93105d8669e7686476dfd2503",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D20",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D21.json",
+      "sha256": "77ab9ba4b384cb46811d3bdbba51b40d88c5856bc13a219e8c520f72932fe8dd",
+      "bytes": 1836,
+      "split": "D",
+      "case_id": "D21",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D21.json",
+      "sha256": "d52e13d67c6bfd009907047093012ec0299175b5c7bf4faf7b990d1137265f2d",
+      "bytes": 1187,
+      "split": "D",
+      "case_id": "D21",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D21.json",
+      "sha256": "75f22cde7bbf19f6353ca8f21c2ea9bea88dc9318adeab617d1abdf8f098417f",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D21",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D22.json",
+      "sha256": "0caa46452ac9b9417fc4516891f5862b7e2ed188cb373b33de10f9f8083bca10",
+      "bytes": 1328,
+      "split": "D",
+      "case_id": "D22",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D22.json",
+      "sha256": "b309b3921833315f1f1a58ea9b4fbae3a2db1f1909c28a23888c97f8ec0a2e34",
+      "bytes": 1255,
+      "split": "D",
+      "case_id": "D22",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D22.json",
+      "sha256": "93ef37ace1122d6acda32f027f446e67aca16cb9076cc06f11c8888fcb6373eb",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D22",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D23.json",
+      "sha256": "e2c779fa81b0545c1e96f708b2fa1c357cfb915149a3c6a8d21168a96211ede7",
+      "bytes": 1068,
+      "split": "D",
+      "case_id": "D23",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D23.json",
+      "sha256": "de4f83cfebf8cd4f785aaa368ec498eccb4afc5dd28e56e96bb1ed32da303774",
+      "bytes": 1164,
+      "split": "D",
+      "case_id": "D23",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D23.json",
+      "sha256": "8269c72cd7adbbb83cc6673952170eff28cc5e8821a1815f9fe08bb2f131abce",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D23",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D24.json",
+      "sha256": "951b73e0a51455b9b7f57d204c1a93024b2eeca56f9821f7edd3256f0a1a9bf7",
+      "bytes": 812,
+      "split": "D",
+      "case_id": "D24",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D24.json",
+      "sha256": "c33284a12819237d28efbc06e98d2bc8ef77ad8cc064a36082d4805a2de71e4a",
+      "bytes": 1161,
+      "split": "D",
+      "case_id": "D24",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D24.json",
+      "sha256": "d3f3e78a537da90899492d49210c1a3a10e849313ff7a0b7a45977b12541cb4c",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D24",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D25.json",
+      "sha256": "5e21206ed7954808c6be8c0d4f2d421ea60cc5df18aeb58834159b8c3cf4c545",
+      "bytes": 1098,
+      "split": "D",
+      "case_id": "D25",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D25.json",
+      "sha256": "cc5b3cacbf6235be7f951691af0f0362387cab8707ee0cd4d5b549461e22ef19",
+      "bytes": 1181,
+      "split": "D",
+      "case_id": "D25",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D25.json",
+      "sha256": "301d9b787c713568542b93232a6257d4633cb0584afd676ccfad975fee95939f",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D25",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D26.json",
+      "sha256": "0f82d2898cc943073164a84ee456f8c9d31c35a54a99e3de2ab6e17faa9297be",
+      "bytes": 1379,
+      "split": "D",
+      "case_id": "D26",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D26.json",
+      "sha256": "e3b2e8e8c764e2959a1021a9543089279c13b9c250691531685930657bbd22f4",
+      "bytes": 1171,
+      "split": "D",
+      "case_id": "D26",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D26.json",
+      "sha256": "6f5e1b8ebe8ed35f07e505a407506fed907539819c3d3b030ee6a76296c550e6",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D26",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D27.json",
+      "sha256": "2f04f7bc6bd7238addedb344975c2d2c3134b245037f6735aafc66d1ad1f9690",
+      "bytes": 1097,
+      "split": "D",
+      "case_id": "D27",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D27.json",
+      "sha256": "57f7f0b7d3eb70fc403d08eb1fb3e2b9e562b0cf1cfc91cf05f543b67673fede",
+      "bytes": 1166,
+      "split": "D",
+      "case_id": "D27",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D27.json",
+      "sha256": "c8429bb31b4f5c5f865acd4daf4bc7e049ee78a2737360d59a887024743e120f",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D27",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D28.json",
+      "sha256": "cd3f3ae5e23cb7dfdcf2efeec1daac33f97064b69679943dbf222a8b67ec800f",
+      "bytes": 1355,
+      "split": "D",
+      "case_id": "D28",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D28.json",
+      "sha256": "b2850e3452cf66d715cc68c5190f2dfdf88da833fe8d0215a70d7d46c4696006",
+      "bytes": 1167,
+      "split": "D",
+      "case_id": "D28",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D28.json",
+      "sha256": "9d34495464fd1f3b432d33da74401e197437b6aa21e8077eb0db4b1a380963a3",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D28",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D29.json",
+      "sha256": "ac5edc61992c757839508acef89c72e3411024eb0348065d958c5699a1002e37",
+      "bytes": 2272,
+      "split": "D",
+      "case_id": "D29",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D29.json",
+      "sha256": "232a51f83c83fcbda3714efeecef35562acb3a04ae8a17ec02e9d63eacd4cef0",
+      "bytes": 1148,
+      "split": "D",
+      "case_id": "D29",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D29.json",
+      "sha256": "e4837e5e3b892e31ea8358327db97c5466ffd15c22f78ece93c937512908eef6",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D29",
+      "kind": "settings"
+    },
+    {
+      "path": "D/input/D30.json",
+      "sha256": "389e11158622571c2dd0b6bebb843e36d9d4c70b50ee95493ed9e04194047058",
+      "bytes": 2184,
+      "split": "D",
+      "case_id": "D30",
+      "kind": "input"
+    },
+    {
+      "path": "D/oracle/D30.json",
+      "sha256": "8d27cc703d7d546109e1c6090ada7ec582da97c20fb4c2b461dbd3bcaf3e57ef",
+      "bytes": 1173,
+      "split": "D",
+      "case_id": "D30",
+      "kind": "oracle"
+    },
+    {
+      "path": "D/settings/D30.json",
+      "sha256": "031ca49cddb1ff0c68584b3fb4cf3e0db450280c7f5f5bff3e853595904b904a",
+      "bytes": 196,
+      "split": "D",
+      "case_id": "D30",
+      "kind": "settings"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/input/H01.json",
+      "sha256": "db4c9ea62dbb4b05110664c8d326dbd6f9e6c4ebb8a0fb14870ff2f772f7fe28",
+      "bytes": 2405,
+      "split": "H",
+      "case_id": "H01",
+      "kind": "input"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/oracle/H01.json",
+      "sha256": "26d0f7a8980b79d62b4f05edd5c67410c75adf74952472f1b974d58dd07fb2dd",
+      "bytes": 1165,
+      "split": "H",
+      "case_id": "H01",
+      "kind": "oracle"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/settings/H01.json",
+      "sha256": "39d9588a9f1be41449c7088c6814f0785a2c78a5aae292a906d4f7be8c895a7b",
+      "bytes": 196,
+      "split": "H",
+      "case_id": "H01",
+      "kind": "settings"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/input/H02.json",
+      "sha256": "f80adbfd37b2f23e973e857476a4246342cb18261d9e56535921bf0ee3618d86",
+      "bytes": 2102,
+      "split": "H",
+      "case_id": "H02",
+      "kind": "input"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/oracle/H02.json",
+      "sha256": "30831c8fa8ac4fd2fca70f796a429485f97ef2bac7933b94ba62986672c8f96b",
+      "bytes": 1176,
+      "split": "H",
+      "case_id": "H02",
+      "kind": "oracle"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/settings/H02.json",
+      "sha256": "e1a970fa3e96b627a92182b089be0ad75d57cf409f18f465d72381745ee69324",
+      "bytes": 196,
+      "split": "H",
+      "case_id": "H02",
+      "kind": "settings"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/input/H03.json",
+      "sha256": "a5b98ebbeba7b06e39d19c2c25d057b464265e4759217656b28bb2ad8a041a91",
+      "bytes": 1683,
+      "split": "H",
+      "case_id": "H03",
+      "kind": "input"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/oracle/H03.json",
+      "sha256": "907c16fa7fd9cfc3307615e9094afb095f9a25aef295a49673e05168ceec46d6",
+      "bytes": 1166,
+      "split": "H",
+      "case_id": "H03",
+      "kind": "oracle"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/settings/H03.json",
+      "sha256": "5bceb983bcfc8447b624b4f62275df5b06779fb12982141d228f12013f40a8f7",
+      "bytes": 196,
+      "split": "H",
+      "case_id": "H03",
+      "kind": "settings"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/input/H04.json",
+      "sha256": "c3e602886f3e87ea9cea26868820ff36bbab970fef58a8738d467259637821ac",
+      "bytes": 1662,
+      "split": "H",
+      "case_id": "H04",
+      "kind": "input"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/oracle/H04.json",
+      "sha256": "bb77ef487a7634475177f8252e4f670b5ad9f7abfe140153035c1288ae9f6ca1",
+      "bytes": 1170,
+      "split": "H",
+      "case_id": "H04",
+      "kind": "oracle"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/settings/H04.json",
+      "sha256": "72d6b6cf6cfd7b5f66f75de88df79c11ee1a50a40aeffe10220c773972a9685a",
+      "bytes": 196,
+      "split": "H",
+      "case_id": "H04",
+      "kind": "settings"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/input/H05.json",
+      "sha256": "592709026bfac32b5ab011abb4b69828d23036d0618008bb5c51ed6190e490c0",
+      "bytes": 1700,
+      "split": "H",
+      "case_id": "H05",
+      "kind": "input"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/oracle/H05.json",
+      "sha256": "64744039ee1e715d520c21427b2357c553ca406b6da822edef324c75f5eb6ef2",
+      "bytes": 1176,
+      "split": "H",
+      "case_id": "H05",
+      "kind": "oracle"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/settings/H05.json",
+      "sha256": "64888489f996092c6b56a3f0dd8813765618ef80f1eebb8a2d1478e4d8aadfce",
+      "bytes": 196,
+      "split": "H",
+      "case_id": "H05",
+      "kind": "settings"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/input/H06.json",
+      "sha256": "53cf24b507804e771ea015b59dc09af445d34039e4693ead648dc11173b0611e",
+      "bytes": 1681,
+      "split": "H",
+      "case_id": "H06",
+      "kind": "input"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/oracle/H06.json",
+      "sha256": "2d90f5502b22369d5f88735c3293cca658e7da3a67ddb929cd222517ea8bb819",
+      "bytes": 1199,
+      "split": "H",
+      "case_id": "H06",
+      "kind": "oracle"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/settings/H06.json",
+      "sha256": "61851373b731c86b9be102677c6148c73432fa2e83261d144bfad65992552051",
+      "bytes": 196,
+      "split": "H",
+      "case_id": "H06",
+      "kind": "settings"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/input/H07.json",
+      "sha256": "742f65fd9f0b0812d82513fcce03cd0f0ac0fa5018ebf13681c142d57e264c42",
+      "bytes": 1806,
+      "split": "H",
+      "case_id": "H07",
+      "kind": "input"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/oracle/H07.json",
+      "sha256": "8d46dcbe07d65afd1995575b7aed1f3d71206bb1f21236de0905fa24c2f15c92",
+      "bytes": 1196,
+      "split": "H",
+      "case_id": "H07",
+      "kind": "oracle"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/settings/H07.json",
+      "sha256": "519d7c68e00a87cc219e2a442d8f2ce58a3385bae176d0eb0243f2c111824e07",
+      "bytes": 196,
+      "split": "H",
+      "case_id": "H07",
+      "kind": "settings"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/input/H08.json",
+      "sha256": "137be65574d0b63a00439d75a4818c32708c92bcab16a4b1d3ccefe01cc2c9cc",
+      "bytes": 1585,
+      "split": "H",
+      "case_id": "H08",
+      "kind": "input"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/oracle/H08.json",
+      "sha256": "162521b68da2c0b12be91834de2fdba1317463ec3015069ae800c5befbb7ddde",
+      "bytes": 1253,
+      "split": "H",
+      "case_id": "H08",
+      "kind": "oracle"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/settings/H08.json",
+      "sha256": "22932c8b405edb107d48c1b2e2a54328188f19d95c95d21dd5ce12fd6af72ce1",
+      "bytes": 196,
+      "split": "H",
+      "case_id": "H08",
+      "kind": "settings"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/input/H09.json",
+      "sha256": "e6fb819dbb8116d7c4af49226ab92928c57d2b77d2ea660b75b31be45aa8a41c",
+      "bytes": 1620,
+      "split": "H",
+      "case_id": "H09",
+      "kind": "input"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/oracle/H09.json",
+      "sha256": "d2627edf0782bd77b03bf9c2e8c3f68ff9e7de0364970626b34c18c2bcc57c93",
+      "bytes": 1178,
+      "split": "H",
+      "case_id": "H09",
+      "kind": "oracle"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/settings/H09.json",
+      "sha256": "1009a45c34889242cafed9f41dfc4b10431bc5cfb3df92066efa5f504157ea54",
+      "bytes": 196,
+      "split": "H",
+      "case_id": "H09",
+      "kind": "settings"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/input/H10.json",
+      "sha256": "51c172e27ba294b23bb11a5019fa0dde14373b567e91b49da6e6ee2ef4c61fe8",
+      "bytes": 1404,
+      "split": "H",
+      "case_id": "H10",
+      "kind": "input"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/oracle/H10.json",
+      "sha256": "d3adb3a63b7ee7e57ac56a751c63d7921654038e20a9a5537059896fc63d00a2",
+      "bytes": 1177,
+      "split": "H",
+      "case_id": "H10",
+      "kind": "oracle"
+    },
+    {
+      "path": "HOLDOUT_DO_NOT_OPEN/settings/H10.json",
+      "sha256": "1ca4f27189f9e5b87f963180d402258f132dddde31cafd8ce4cab254323ab24f",
+      "bytes": 196,
+      "split": "H",
+      "case_id": "H10",
+      "kind": "settings"
+    },
+    {
+      "path": "S/input/S01.json",
+      "sha256": "5466ea2f68aec2a3ba5eee50b39f54df990c7b6ba830d152472fc1446bfaaea0",
+      "bytes": 820,
+      "split": "S",
+      "case_id": "S01",
+      "kind": "input"
+    },
+    {
+      "path": "S/oracle/S01.json",
+      "sha256": "31d23f9720fa942ee6acdd576bcbc380c29a392d83fc5e410e5547096b91249f",
+      "bytes": 1168,
+      "split": "S",
+      "case_id": "S01",
+      "kind": "oracle"
+    },
+    {
+      "path": "S/settings/S01.json",
+      "sha256": "fc21809b181888d8f93590fc5a95f87bbd43874ed7d15e97a664a597d0b3584c",
+      "bytes": 196,
+      "split": "S",
+      "case_id": "S01",
+      "kind": "settings"
+    },
+    {
+      "path": "S/input/S02.json",
+      "sha256": "d0ee006e556290aed166d01504bb49be4b9525e662cf97cfaface292a9f003da",
+      "bytes": 1306,
+      "split": "S",
+      "case_id": "S02",
+      "kind": "input"
+    },
+    {
+      "path": "S/oracle/S02.json",
+      "sha256": "d1c58a736141603ec00eb301797662d355c619fbe75ccc64707c8c7267a8a876",
+      "bytes": 1219,
+      "split": "S",
+      "case_id": "S02",
+      "kind": "oracle"
+    },
+    {
+      "path": "S/settings/S02.json",
+      "sha256": "8dd5235c66598032c7662102e9b56b240737ab3483706881a52b11db61dc599a",
+      "bytes": 196,
+      "split": "S",
+      "case_id": "S02",
+      "kind": "settings"
+    },
+    {
+      "path": "S/input/S03.json",
+      "sha256": "97fe67ab187ebbc7873468df2489714e325db928a0c54f7b5fbc1316e4248af0",
+      "bytes": 826,
+      "split": "S",
+      "case_id": "S03",
+      "kind": "input"
+    },
+    {
+      "path": "S/oracle/S03.json",
+      "sha256": "12f39ffe21f093b1c92a3298507e67472e8c88972191c1db38bd6c04427ea8cd",
+      "bytes": 1214,
+      "split": "S",
+      "case_id": "S03",
+      "kind": "oracle"
+    },
+    {
+      "path": "S/settings/S03.json",
+      "sha256": "d7adb45ac4fcdaaa085862cc4a12d1a882e90c6a1afd4fdf4a15c0078b4573bd",
+      "bytes": 196,
+      "split": "S",
+      "case_id": "S03",
+      "kind": "settings"
+    },
+    {
+      "path": "S/input/S04.json",
+      "sha256": "5a495063df9b4954cdf589f94e7910421a30f535d61bf6ef554feadc7dac2c97",
+      "bytes": 819,
+      "split": "S",
+      "case_id": "S04",
+      "kind": "input"
+    },
+    {
+      "path": "S/oracle/S04.json",
+      "sha256": "9f741b8c1fdb4cae9149c215a64926f88a56995cddbfea728b6b90e836ade18f",
+      "bytes": 1114,
+      "split": "S",
+      "case_id": "S04",
+      "kind": "oracle"
+    },
+    {
+      "path": "S/settings/S04.json",
+      "sha256": "b361bf256b98a034ffb7174df1ed3cfc3f3932db797b29d8a6b2576a915f558f",
+      "bytes": 196,
+      "split": "S",
+      "case_id": "S04",
+      "kind": "settings"
+    },
+    {
+      "path": "S/input/S05.json",
+      "sha256": "c2a2fbe189b80fdeb8cd1bfc1e9707d45a590fb804d60fe787b7c70edfc6d8be",
+      "bytes": 835,
+      "split": "S",
+      "case_id": "S05",
+      "kind": "input"
+    },
+    {
+      "path": "S/oracle/S05.json",
+      "sha256": "4e7066d9f3bc45b518bd5fd009db4d499c3eeea87c014e29c92d5390af33cccd",
+      "bytes": 1120,
+      "split": "S",
+      "case_id": "S05",
+      "kind": "oracle"
+    },
+    {
+      "path": "S/settings/S05.json",
+      "sha256": "5c4100f44d3bf0dff9041f98267072987eb1fc814095c10e14e2f9128e22a551",
+      "bytes": 196,
+      "split": "S",
+      "case_id": "S05",
+      "kind": "settings"
+    },
+    {
+      "path": "S/input/S06.json",
+      "sha256": "0b3f5fc7b68a5b1638ac9b2f240e1a8d48547df50f9c0913a1f8cb649910ebcb",
+      "bytes": 818,
+      "split": "S",
+      "case_id": "S06",
+      "kind": "input"
+    },
+    {
+      "path": "S/oracle/S06.json",
+      "sha256": "12f8ec0bf45dc867e14dbc120386c95aa7220cd2cc9cb657857d8007c365a91f",
+      "bytes": 1125,
+      "split": "S",
+      "case_id": "S06",
+      "kind": "oracle"
+    },
+    {
+      "path": "S/settings/S06.json",
+      "sha256": "b76748ff714644aef8325815ba37a9a5aca6566fd03e6f6ec9c3263f1404b949",
+      "bytes": 196,
+      "split": "S",
+      "case_id": "S06",
+      "kind": "settings"
+    },
+    {
+      "path": "S/input/S07.json",
+      "sha256": "009a79944e57a39cba6328178b5ca0c9a81e25c0532bef6c4290357505cc77c9",
+      "bytes": 822,
+      "split": "S",
+      "case_id": "S07",
+      "kind": "input"
+    },
+    {
+      "path": "S/oracle/S07.json",
+      "sha256": "c29ee7b9951f4c8c284b6283dde70def803aaf06642d83bfad80161e96392eb7",
+      "bytes": 1121,
+      "split": "S",
+      "case_id": "S07",
+      "kind": "oracle"
+    },
+    {
+      "path": "S/settings/S07.json",
+      "sha256": "5a5b6f5d8fed1947be166522c9a6d23718bd4dcfcdb37afba31c04ec84d7d0a9",
+      "bytes": 196,
+      "split": "S",
+      "case_id": "S07",
+      "kind": "settings"
+    },
+    {
+      "path": "S/input/S08.json",
+      "sha256": "b4668826f3648ea8e5154468f0acdd596d4a01eaa2df4de5c60979c4f80d0e80",
+      "bytes": 1068,
+      "split": "S",
+      "case_id": "S08",
+      "kind": "input"
+    },
+    {
+      "path": "S/oracle/S08.json",
+      "sha256": "894ddce15236b9525527ea51c87bc7e69ae1fa9134581481927f9bf44e83ef5a",
+      "bytes": 1206,
+      "split": "S",
+      "case_id": "S08",
+      "kind": "oracle"
+    },
+    {
+      "path": "S/settings/S08.json",
+      "sha256": "df997904c213553c05bdbfd03927ba1c12ff36d0591bb1359a0764e2034ce852",
+      "bytes": 887,
+      "split": "S",
+      "case_id": "S08",
+      "kind": "settings"
+    }
+  ],
+  "splits": {
+    "D": [
+      "D01",
+      "D02",
+      "D03",
+      "D04",
+      "D05",
+      "D06",
+      "D07",
+      "D08",
+      "D09",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18",
+      "D19",
+      "D20",
+      "D21",
+      "D22",
+      "D23",
+      "D24",
+      "D25",
+      "D26",
+      "D27",
+      "D28",
+      "D29",
+      "D30"
+    ],
+    "H": [
+      "H01",
+      "H02",
+      "H03",
+      "H04",
+      "H05",
+      "H06",
+      "H07",
+      "H08",
+      "H09",
+      "H10"
+    ],
+    "S": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08"
+    ]
+  },
+  "counts": {
+    "D": 30,
+    "H": 10,
+    "S": 8
+  },
+  "total_native_inputs": 48,
+  "invalid_input_count": 4,
+  "policy_outputs_used": false,
+  "implementation_access": false,
+  "heldout_directory": "HOLDOUT_DO_NOT_OPEN",
+  "holdout_details_location": "HOLDOUT_DO_NOT_OPEN/oracle/",
+  "license": "CC0-1.0",
+  "question_contract": {
+    "menu": [
+      "reference",
+      "date",
+      "party",
+      "duplicate",
+      "reference_date",
+      "packet"
+    ],
+    "weights": {
+      "reference": 1,
+      "date": 1,
+      "party": 2,
+      "duplicate": 3
+    },
+    "default_lambda": 1,
+    "sensitivity_lambdas": [
+      0,
+      4
+    ],
+    "default_budgets": {
+      "questions": 4,
+      "fields": 4
+    },
+    "random_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "seed_derivation": "SHA256(UTF8(split + ':' + case_id + ':' + decimal_seed))[:8] big-endian; Python random.Random.choice in menu order",
+    "quantiles": {
+      "median": "ordinary midpoint",
+      "p90": "nearest rank ceil(0.9*n), 1-based",
+      "empty": "null and denominator0"
+    }
+  },
+  "expectation_location": "Separate oracle files; S08 explicit configuration expectations also in settings.",
+  "stress_denominator": "8 independent input cases; S08 has3 explicitly labelled configuration subruns; never count them as3 independent cases."
+}

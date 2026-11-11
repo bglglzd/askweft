@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "id": "H01",
+  "title": "Synthetic invoice H01",
+  "invoice": {
+    "id": "I-H01",
+    "amount_minor": 90817,
+    "currency": "EUR",
+    "issued_on": "2032-03-01",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-H01-1-1",
+      "amount_minor": 90817,
+      "currency": "EUR",
+      "booked_on": "2034-07-11",
+      "reference": "batch-A",
+      "party_key": "one"
+    },
+    {
+      "id": "B-H01-2-1",
+      "amount_minor": 90817,
+      "currency": "EUR",
+      "booked_on": "2034-07-12",
+      "reference": "batch-A",
+      "party_key": "two"
+    },
+    {
+      "id": "B-H01-2-2",
+      "amount_minor": 90817,
+      "currency": "EUR",
+      "booked_on": "2034-07-12",
+      "reference": "batch-A",
+      "party_key": "two"
+    },
+    {
+      "id": "B-H01-2-3",
+      "amount_minor": 90817,
+      "currency": "EUR",
+      "booked_on": "2034-07-12",
+      "reference": "batch-A",
+      "party_key": "two"
+    },
+    {
+      "id": "B-H01-3-1",
+      "amount_minor": 90817,
+      "currency": "EUR",
+      "booked_on": "2034-07-11",
+      "reference": "batch-B",
+      "party_key": "one"
+    },
+    {
+      "id": "B-H01-3-2",
+      "amount_minor": 90817,
+      "currency": "EUR",
+      "booked_on": "2034-07-11",
+      "reference": "batch-B",
+      "party_key": "one"
+    },
+    {
+      "id": "B-H01-4-1",
+      "amount_minor": 90817,
+      "currency": "EUR",
+      "booked_on": "2034-07-12",
+      "reference": "batch-B",
+      "party_key": "three"
+    },
+    {
+      "id": "B-H01-5-1",
+      "amount_minor": 90817,
+      "currency": "EUR",
+      "booked_on": "2034-07-13",
+      "reference": "batch-B",
+      "party_key": "three"
+    },
+    {
+      "id": "B-H01-5-2",
+      "amount_minor": 90817,
+      "currency": "EUR",
+      "booked_on": "2034-07-13",
+      "reference": "batch-B",
+      "party_key": "three"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-H01-1-1"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-H01-2-3",
+        "B-H01-2-2",
+        "B-H01-2-1"
+      ]
+    },
+    {
+      "id": "A3",
+      "bank_ids": [
+        "B-H01-3-2",
+        "B-H01-3-1"
+      ]
+    },
+    {
+      "id": "A4",
+      "bank_ids": [
+        "B-H01-4-1"
+      ]
+    },
+    {
+      "id": "A5",
+      "bank_ids": [
+        "B-H01-5-2",
+        "B-H01-5-1"
+      ]
+    }
+  ],
+  "confirmed": {}
+}

@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "id": "D03",
+  "title": "Synthetic invoice D03",
+  "invoice": {
+    "id": "I-D03",
+    "amount_minor": 12500,
+    "currency": "USD",
+    "issued_on": "2032-03-01",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-D03-1-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "same",
+      "party_key": "north"
+    },
+    {
+      "id": "B-D03-2-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "same",
+      "party_key": "east"
+    },
+    {
+      "id": "B-D03-3-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "same",
+      "party_key": "south"
+    },
+    {
+      "id": "B-D03-4-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "same",
+      "party_key": "west"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-D03-1-1"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-D03-2-1"
+      ]
+    },
+    {
+      "id": "A3",
+      "bank_ids": [
+        "B-D03-3-1"
+      ]
+    },
+    {
+      "id": "A4",
+      "bank_ids": [
+        "B-D03-4-1"
+      ]
+    }
+  ],
+  "confirmed": {}
+}

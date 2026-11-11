@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "id": "D01",
+  "title": "Synthetic invoice D01",
+  "invoice": {
+    "id": "I-D01",
+    "amount_minor": 12500,
+    "currency": "USD",
+    "issued_on": "2032-03-01",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-D01-1-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "R-01",
+      "party_key": "harbor"
+    },
+    {
+      "id": "B-D01-2-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "R-02",
+      "party_key": "harbor"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-D01-1-1"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-D01-2-1"
+      ]
+    }
+  ],
+  "confirmed": {}
+}

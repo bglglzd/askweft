@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "id": "D13",
+  "title": "Synthetic invoice D13",
+  "invoice": {
+    "id": "I-D13",
+    "amount_minor": 12500,
+    "currency": "USD",
+    "issued_on": "2032-03-01",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-D13-1-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": null,
+      "reference": "X",
+      "party_key": "discard"
+    },
+    {
+      "id": "B-D13-2-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": null,
+      "reference": "Y",
+      "party_key": "discard"
+    },
+    {
+      "id": "B-D13-3-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-15",
+      "reference": "Z",
+      "party_key": "keep"
+    },
+    {
+      "id": "B-D13-4-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-16",
+      "reference": "Z",
+      "party_key": "keep"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-D13-1-1"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-D13-2-1"
+      ]
+    },
+    {
+      "id": "A3",
+      "bank_ids": [
+        "B-D13-3-1"
+      ]
+    },
+    {
+      "id": "A4",
+      "bank_ids": [
+        "B-D13-4-1"
+      ]
+    }
+  ],
+  "confirmed": {
+    "party": "keep"
+  }
+}

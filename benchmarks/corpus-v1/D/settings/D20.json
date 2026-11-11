@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "case_id": "D20",
+  "lambda": 1,
+  "question_budget": 1,
+  "field_budget": 2,
+  "scope": "All policies and preregistered lambda sensitivities use these same budgets."
+}

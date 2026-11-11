@@ -39,7 +39,7 @@ askweft --db example.sqlite demo</code></pre><p>Open the numeric loopback URL pr
       <section class="glass empty-panel" id="empty-panel" aria-labelledby="empty-heading"><h2 id="empty-heading">Import a case</h2><p>Choose a JSON file or paste extracted source records and proposed alternatives.</p><button class="button primary" id="empty-import" type="button" data-write>Import JSON</button></section>
 
       <div id="case-workspace" hidden>
-        <section class="case-status" aria-label="Session state"><div class="status-copy"><span class="status-pill" id="session-status">—</span><p id="session-reason"></p></div><div class="usage" aria-label="Used session budget"><span id="usage-questions"></span><span id="usage-fields"></span><span id="usage-cost"></span></div><button class="text-button" id="open-restart" type="button" data-write>Restart session</button></section>
+        <section class="case-status" aria-label="Session state"><div class="status-copy"><span class="status-pill" id="session-status">—</span><p id="session-reason"></p></div><div class="usage" aria-label="Used session budget"><span id="usage-questions"></span><span id="usage-fields"></span><span id="usage-cost"></span></div><a class="text-button request-shortcut" href="#request-panel" id="jump-request" hidden>Next request ↓</a><button class="text-button" id="open-restart" type="button" data-write>Restart session</button></section>
         <p class="scope-note" id="result-scope" hidden>Resolved only within the supplied alternatives and assumptions. This is not financial approval.</p>
 
         <div class="workspace-grid">
@@ -55,7 +55,7 @@ askweft --db example.sqlite demo</code></pre><p>Open the numeric loopback URL pr
           <section class="glass alternatives-panel" aria-labelledby="alternatives-heading"><div class="section-heading"><h2 id="alternatives-heading">Alternatives</h2><label class="compact-label"><span class="sr-only">Filter alternatives</span><select id="alternative-filter"><option value="all">All alternatives</option><option value="remaining">Remaining</option><option value="ruled-out">Ruled out</option></select></label></div><ul class="alternative-list" id="alternative-list"></ul></section>
 
           <aside class="request-column">
-            <section class="glass request-panel" aria-labelledby="request-heading">
+            <section class="glass request-panel" id="request-panel" aria-labelledby="request-heading">
               <div class="section-heading"><h2 id="request-heading">Next request</h2><span class="muted" id="request-revision"></span></div>
               <div id="question-preview">
                 <label class="question-select-label">Question<select id="question-select"></select></label>
@@ -68,7 +68,7 @@ askweft --db example.sqlite demo</code></pre><p>Open the numeric loopback URL pr
               <div id="pending-answer" hidden><h3 class="question-title" id="pending-title"></h3><p class="pending-note" id="pending-cost"></p><form id="answer-form"><div id="answer-fields"></div><p class="field-hint">Use Unknown only when you cannot provide that field. Blank or invalid input is not an answer.</p><p class="form-feedback" id="answer-feedback" role="status"></p><button class="button primary full" type="submit" data-write>Record answer</button></form><details class="pending-partitions"><summary>Requested answer partitions</summary><ul class="partition-list" id="pending-partitions"></ul></details></div>
               <div class="terminal-state" id="terminal-state" hidden><p id="terminal-reason"></p><p class="muted">Review the alternatives and journal. A new session preserves this session’s answers.</p></div>
             </section>
-            
+
           </aside>
         </div>
 

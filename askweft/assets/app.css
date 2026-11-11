@@ -1345,3 +1345,7 @@ main:focus {
     scroll-behavior:auto!important
   }
 }
+
+.request-shortcut{display:none;scroll-margin-top:16px}
+#request-panel{scroll-margin-top:16px}
+@media(max-width:800px){.request-shortcut{display:inline-flex;color:var(--blue);font-weight:600}}

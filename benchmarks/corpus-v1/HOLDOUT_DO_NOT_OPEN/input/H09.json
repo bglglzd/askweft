@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "id": "H09",
+  "title": "Synthetic invoice H09",
+  "invoice": {
+    "id": "I-H09",
+    "amount_minor": 24599,
+    "currency": "EUR",
+    "issued_on": "2032-03-01",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-H09-1-1",
+      "amount_minor": 24599,
+      "currency": "EUR",
+      "booked_on": "2032-03-10",
+      "reference": " å-7 ",
+      "party_key": " depot "
+    },
+    {
+      "id": "B-H09-2-1",
+      "amount_minor": 24599,
+      "currency": "EUR",
+      "booked_on": "2032-03-10",
+      "reference": "å-7",
+      "party_key": "Depot"
+    },
+    {
+      "id": "B-H09-3-1",
+      "amount_minor": 24599,
+      "currency": "EUR",
+      "booked_on": "2032-03-10",
+      "reference": "Å-7",
+      "party_key": "Depot"
+    },
+    {
+      "id": "B-H09-4-1",
+      "amount_minor": 24599,
+      "currency": "EUR",
+      "booked_on": "2032-03-10",
+      "reference": "å-8",
+      "party_key": "depot"
+    },
+    {
+      "id": "B-H09-5-1",
+      "amount_minor": 24600,
+      "currency": "EUR",
+      "booked_on": "2034-07-11",
+      "reference": "x",
+      "party_key": "depot"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-H09-1-1"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-H09-2-1"
+      ]
+    },
+    {
+      "id": "A3",
+      "bank_ids": [
+        "B-H09-3-1"
+      ]
+    },
+    {
+      "id": "A4",
+      "bank_ids": [
+        "B-H09-4-1"
+      ]
+    },
+    {
+      "id": "A5",
+      "bank_ids": [
+        "B-H09-5-1"
+      ]
+    }
+  ],
+  "confirmed": {
+    "date": "2032-03-10"
+  }
+}

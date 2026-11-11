@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "id": "D10",
+  "title": "Synthetic invoice D10",
+  "invoice": {
+    "id": "I-D10",
+    "amount_minor": 12500,
+    "currency": "USD",
+    "issued_on": "2032-03-01",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-D10-1-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": null,
+      "reference": "one",
+      "party_key": "cedar"
+    },
+    {
+      "id": "B-D10-2-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": null,
+      "reference": "one",
+      "party_key": "elm"
+    },
+    {
+      "id": "B-D10-3-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": null,
+      "reference": "one",
+      "party_key": "ash"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-D10-1-1"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-D10-2-1"
+      ]
+    },
+    {
+      "id": "A3",
+      "bank_ids": [
+        "B-D10-3-1"
+      ]
+    }
+  ],
+  "confirmed": {}
+}

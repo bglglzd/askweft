@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "id": "D28",
+  "title": "Synthetic invoice D28",
+  "invoice": {
+    "id": "I-D28",
+    "amount_minor": 12500,
+    "currency": "USD",
+    "issued_on": "2032-03-01",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-D28-1-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "  Café  ",
+      "party_key": "  Atelier  "
+    },
+    {
+      "id": "B-D28-2-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "Café-2",
+      "party_key": "Atelier"
+    },
+    {
+      "id": "B-D28-3-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "café",
+      "party_key": "atelier"
+    },
+    {
+      "id": "B-D28-4-1",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "booked_on": "2032-03-10",
+      "reference": "Café",
+      "party_key": "atelier"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-D28-1-1"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-D28-2-1"
+      ]
+    },
+    {
+      "id": "A3",
+      "bank_ids": [
+        "B-D28-3-1"
+      ]
+    },
+    {
+      "id": "A4",
+      "bank_ids": [
+        "B-D28-4-1"
+      ]
+    }
+  ],
+  "confirmed": {}
+}

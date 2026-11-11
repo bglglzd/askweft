@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "id": "H04",
+  "title": "Synthetic invoice H04",
+  "invoice": {
+    "id": "I-H04",
+    "amount_minor": 41001,
+    "currency": "USD",
+    "issued_on": "2032-03-01",
+    "reference": null,
+    "party_key": null
+  },
+  "bank_events": [
+    {
+      "id": "B-H04-1-1",
+      "amount_minor": 41001,
+      "currency": "USD",
+      "booked_on": "2034-07-21",
+      "reference": "n1",
+      "party_key": "fixed"
+    },
+    {
+      "id": "B-H04-2-1",
+      "amount_minor": 41001,
+      "currency": "USD",
+      "booked_on": "2034-07-21",
+      "reference": "n2",
+      "party_key": "fixed"
+    },
+    {
+      "id": "B-H04-2-2",
+      "amount_minor": 41001,
+      "currency": "USD",
+      "booked_on": "2034-07-21",
+      "reference": "n2",
+      "party_key": "fixed"
+    },
+    {
+      "id": "B-H04-3-1",
+      "amount_minor": 41001,
+      "currency": "USD",
+      "booked_on": "2034-07-22",
+      "reference": "n3",
+      "party_key": "fixed"
+    },
+    {
+      "id": "B-H04-3-2",
+      "amount_minor": 41001,
+      "currency": "USD",
+      "booked_on": "2034-07-22",
+      "reference": "n3",
+      "party_key": "fixed"
+    },
+    {
+      "id": "B-H04-3-3",
+      "amount_minor": 41001,
+      "currency": "USD",
+      "booked_on": "2034-07-22",
+      "reference": "n3",
+      "party_key": "fixed"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A1",
+      "bank_ids": [
+        "B-H04-1-1"
+      ]
+    },
+    {
+      "id": "A2",
+      "bank_ids": [
+        "B-H04-2-1",
+        "B-H04-2-2"
+      ]
+    },
+    {
+      "id": "A3",
+      "bank_ids": [
+        "B-H04-3-1",
+        "B-H04-3-2",
+        "B-H04-3-3"
+      ]
+    }
+  ],
+  "confirmed": {}
+}
