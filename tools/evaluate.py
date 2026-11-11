@@ -737,7 +737,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--split", choices=("D", "H", "S"))
     parser.add_argument("--output", type=Path)
-    parser.add_argument("--product-root", type=Path, default=ROOT / "products/askweft")
+    parser.add_argument("--product-root", type=Path, default=ROOT)
     parser.add_argument("--python", type=Path, default=Path(sys.executable))
     parser.add_argument("--freeze-record", type=Path)
     parser.add_argument("--prepare-freeze", type=Path)
