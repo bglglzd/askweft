@@ -1,0 +1,15 @@
+name: Bug
+description: Report a reproducible input or state transition
+body:
+  - type: textarea
+    attributes:
+      label: Reproduction
+      description: Version, Python/OS, commands and a minimal synthetic Case v1 input. Omit private data.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected and actual result
+      description: Include status/reason and a sanitized journal excerpt where relevant.
+    validations:
+      required: true

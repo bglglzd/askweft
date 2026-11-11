@@ -40,6 +40,10 @@ def main(argv=None):
         "--db", default="askweft.sqlite", help="Local SQLite file (default: askweft.sqlite)"
     )
     commands = parser.add_subparsers(dest="command", required=True)
+    record = commands.add_parser(
+        "record", help="Record actual synthetic engine states to a new file"
+    )
+    record.add_argument("file")
     start = commands.add_parser("import", help="Import arbitrary Case v1 JSON bytes")
     start.add_argument("file")
     add_settings(start)
@@ -71,6 +75,11 @@ def main(argv=None):
         sub.add_argument("--port", type=int, default=8746)
     args = parser.parse_args(argv)
     try:
+        if args.command == "record":
+            from .demo import export_recording
+
+            export_recording(args.file)
+            return 0
         engine = Engine(args.db)
         command = args.command
         if command == "import":

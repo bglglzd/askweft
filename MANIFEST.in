@@ -1,0 +1,8 @@
+include LICENSE README.md CHANGELOG.md CONTRIBUTING.md requirements-dev.txt .gitattributes
+recursive-include askweft/assets *
+recursive-include askweft/examples *.json
+recursive-include docs *.md *.png
+recursive-include tests *.py
+recursive-include scripts *.py
+recursive-include benchmarks *.json *.md *.txt LICENSE
+recursive-include .github *.yml

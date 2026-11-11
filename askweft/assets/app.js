@@ -106,11 +106,11 @@
       if (generation !== ui.generation) return;
       if (!ui.established && error.code === "static_host") {
         try { await loadRecording(); return; }
-        catch (recordingError) { connection(false, `No local workspace or saved recording is available. ${recordingError.message} Run “askweft demo --serve” and open its printed URL.`); }
+        catch (recordingError) { connection(false, `No local workspace or saved recording is available. ${recordingError.message} Run “askweft --db example.sqlite demo” and open its printed URL.`); }
       } else if (error.code === "not_found" && ui.view) {
         ui.selectionUnavailable = true;
         connection(true, "The selected session is unavailable. Choose another session or open the latest session.");
-      } else connection(false, `${error.message} ${ui.view ? "The last received view remains visible. Writes are disabled until a fresh connection returns." : "Run “askweft demo --serve” and open its printed numeric loopback URL."}`);
+      } else connection(false, `${error.message} ${ui.view ? "The last received view remains visible. Writes are disabled until a fresh connection returns." : "Run “askweft --db example.sqlite demo” and open its printed numeric loopback URL."}`);
     } finally {
       if (generation === ui.generation) { ui.switching = false; controls(); }
       schedule();
@@ -319,7 +319,7 @@
     const question = current.options.find((item) => item.id === ui.questionId);
     if (!question) return;
     text("question-title", question.title);
-    text("question-fields", question.fields.map(fieldName).join(" · "));
+    text("question-fields", question.fields.map(fieldName).join(" · ")); $("question-fields").hidden = question.fields.length === 1 && fieldName(question.fields[0]) === question.title;
     text("question-cost", `${question.cost} units`);
     text("question-remaining", fraction(question.expected_remaining));
     renderChanged("question-partitions", question.partitions, () => partitionRows(question.partitions));

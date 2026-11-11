@@ -24,6 +24,10 @@ def make_server(engine, *, port=0):
     token = secrets.token_urlsafe(32)
 
     class Handler(BaseHTTPRequestHandler):
+        def setup(self):
+            super().setup()
+            self.connection.settimeout(3)
+
         def log_message(self, *_):
             pass
 

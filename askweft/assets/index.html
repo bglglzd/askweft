@@ -27,7 +27,7 @@
       <div><h1 id="recorded-heading">Read-only recording</h1><p>Saved synthetic states. Run Askweft locally to import or answer a case.</p></div>
       <label>Saved stage<select id="saved-stage"></select></label>
       <details class="run-instructions"><summary>Run locally</summary><p>From the Askweft source checkout, use Python 3.11 or newer:</p><pre><code>python -m pip install .
-askweft demo --serve</code></pre><p>Open the numeric loopback URL printed in the terminal.</p></details>
+askweft --db example.sqlite demo</code></pre><p>Open the numeric loopback URL printed in the terminal.</p></details>
     </section>
 
     <main id="workspace" tabindex="-1">
@@ -59,7 +59,7 @@ askweft demo --serve</code></pre><p>Open the numeric loopback URL printed in the
               <div class="section-heading"><h2 id="request-heading">Next request</h2><span class="muted" id="request-revision"></span></div>
               <div id="question-preview">
                 <label class="question-select-label">Question<select id="question-select"></select></label>
-                <h3 class="question-title" id="question-title"></h3><p class="question-fields" id="question-fields"></p>
+                <h3 class="question-title" id="question-title" hidden></h3><p class="question-fields" id="question-fields"></p>
                 <dl class="question-numbers"><div><dt>Declared cost</dt><dd id="question-cost"></dd></div><div><dt>Expected remaining</dt><dd id="question-remaining"></dd></div></dl>
                 <div class="partitions"><h4>Possible answers</h4><ul id="question-partitions"></ul></div>
                 <details class="ranking-details"><summary>Partition and cost explanation</summary><p id="question-explanation"></p><p id="cost-explanation"></p><p>Remaining alternatives are equally weighted. These values are not calibrated confidence or measured time.</p></details>
@@ -68,7 +68,7 @@ askweft demo --serve</code></pre><p>Open the numeric loopback URL printed in the
               <div id="pending-answer" hidden><h3 class="question-title" id="pending-title"></h3><p class="pending-note" id="pending-cost"></p><form id="answer-form"><div id="answer-fields"></div><p class="field-hint">Use Unknown only when you cannot provide that field. Blank or invalid input is not an answer.</p><p class="form-feedback" id="answer-feedback" role="status"></p><button class="button primary full" type="submit" data-write>Record answer</button></form><details class="pending-partitions"><summary>Requested answer partitions</summary><ul class="partition-list" id="pending-partitions"></ul></details></div>
               <div class="terminal-state" id="terminal-state" hidden><p id="terminal-reason"></p><p class="muted">Review the alternatives and journal. A new session preserves this session’s answers.</p></div>
             </section>
-            <p class="request-boundary">Answers confirm fields within the supplied model. No payment or bank action is performed.</p>
+            
           </aside>
         </div>
 
